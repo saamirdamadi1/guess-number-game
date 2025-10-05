@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+  font-family: vazir;
+}
+@font-face {
+  font-family: vazir;
+  src: url("/src/fonts/Vazir.eot") format("eot");
+  src: url("/src/fonts/Vazir.ttf") format("ttf");
+  src: url("/src/fonts/Vazir.woff") format("woff");
+  src: url("/src/fonts/Vazir.woff2") format("woff2");
+}
+
+@theme{
+  --breakpoint-xo: 592px;
+  --breakpoint-xm: 982px;
+}
